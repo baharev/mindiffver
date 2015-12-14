@@ -13,11 +13,13 @@ or on Windows:
     mindiffver.exe  <input.txt  >output.txt
 
 The corresponding executables and the input.txt file are in the 
-binary_distribution directory. The executables should work on any i386 
-compatible architecture.
+binary_distribution directory. The executables should work on *any* i386 
+compatible architecture. The downside is that they are roughly 7x slower than 
+an executable optimized specifically for your CPU.
 
 **The only relevant source file is the `main.cpp` file.** The other 
-source files belong to C-XSC (see the paper).
+source files belong to the third party interval arithmetic library C-XSC (see 
+the paper).
 
 
 Example
@@ -25,7 +27,7 @@ Example
 
 This program reads from the standard input, and writes to the standard output,
 line-by-line. If you have a table of the data to verify in a text file called 
-input.txt, then you may run this program like this:
+input.txt, then you can run this program like this:
 
     mindiffver  <input.txt  >output.txt
     
@@ -105,8 +107,9 @@ install C-XSC:
    http://www.xsc.de/ 
 
 with the default settings, except that both dynamic and static libraries are 
-built. Make sure that all the unit tests of C-XSC pass! The unit tests are
-automatically executed as part of the installation procedure.
+built. **Make sure that all the unit tests of C-XSC pass!** The unit tests are
+automatically executed as part of the installation procedure. If you have 
+difficulties passing the unit tests, try setting the rounding mode to soft.
 
 Then, in the directory where the source files of the software are, issue the 
 following command:
