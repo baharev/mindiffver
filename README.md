@@ -1,6 +1,6 @@
 
-REPRODUCING THE NUMERICAL RESULT OF THE ACADEMIC PAPER
-======================================================
+Reproducing the numerical results of the paper
+==============================================
 
 The algorithm is described in the academic paper 
 [Rigorous enclosures of minimal detectable differences for general ANOVA models](http://reliablecomputing.eu/baharev_anova_power_f_test.pdf).
@@ -20,7 +20,7 @@ compatible architecture.
 source files belong to C-XSC (see the paper).
 
 
-EXAMPLE
+Example
 =======
 
 This program reads from the standard input, and writes to the standard output,
@@ -38,7 +38,7 @@ The verified results will be written to the output.txt file.
 The format of the input.txt and output.txt are detailed right below. 
 
 
-INPUT FORMAT
+Input format
 ============
 
 Each line of the input is supposed to have the following format:
@@ -74,7 +74,7 @@ assumptions may cause performance degradation and the algorithm may start
 reporting failures but incorrect results will never be produced.
 
 
-OUTPUT FORMAT
+Output format
 =============
 
 There are 3 possible outcomes:
@@ -95,7 +95,7 @@ c) In all other cases a single line error message starting with "Failed ..."
    (those two lines must succeed).
 
 
-COMPILING FROM SOURCE
+Compiling from source
 =====================
 
 You may consider using the binary distribution in which case you avoid the 
