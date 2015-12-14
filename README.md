@@ -13,7 +13,7 @@ or on Windows:
     mindiffver.exe  <input.txt  >output.txt
 
 The corresponding executables and the input.txt file are in the 
-`binary_distribution` directory. The executables should work on *any* i386 
+**`binary_distribution`** directory. The executables should work on *any* i386 
 compatible architecture. The downside is that they are roughly 7x slower than 
 an executable optimized specifically for your CPU.
 
