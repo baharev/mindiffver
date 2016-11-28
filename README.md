@@ -3,7 +3,7 @@ Reproducing the numerical results of the paper
 ==============================================
 
 The algorithm is described in the academic paper 
-[Rigorous enclosures of minimal detectable differences for general ANOVA models](http://reliablecomputing.eu/baharev_anova_power_f_test.pdf).
+[Computing the noncentral-F distribution and the power of the F-test with guaranteed accuracy](http://reliablecomputing.eu/baharev_anova_power_f_test.pdf).
 To reproduce the numerical results of this paper on Linux run:
 
     mindiffver  <input.txt  >output.txt
