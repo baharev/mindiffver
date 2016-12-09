@@ -3,7 +3,7 @@ Reproducing the numerical results of the paper
 ==============================================
 
 The algorithm is described in the academic paper 
-[Computing the noncentral-F distribution and the power of the F-test with guaranteed accuracy](http://reliablecomputing.eu/baharev_anova_power_f_test.pdf).
+[Computing the noncentral-F distribution and the power of the F-test with guaranteed accuracy](http://dx.doi.org/10.1007/s00180-016-0701-3).
 To reproduce the numerical results of this paper on Linux run:
 
     mindiffver  <input.txt  >output.txt
